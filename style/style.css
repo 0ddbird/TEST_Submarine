@@ -1,0 +1,64 @@
+@keyframes sharkSwim {
+  0% {
+    transform: translateX(500px);
+  }
+  100% {
+    transform: translateX(-1500px);
+  }
+}
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.hublot {
+  width: 100vw;
+  position: sticky;
+  top: 0px;
+  z-index: 2;
+}
+
+.background {
+  width: 100vw;
+  height: 5000px;
+  background: linear-gradient(#22e4fd, #000f50);
+  position: absolute;
+}
+
+svg .st0 {
+  display: none;
+}
+svg .st1 {
+  display: inline;
+  fill: #CC9E7F;
+}
+svg .st2 {
+  display: inline;
+}
+svg .st3 {
+  fill: #AA7143;
+}
+svg .st4 {
+  fill: #AA6231;
+}
+svg .st5 {
+  fill: #CE851B;
+}
+svg .st6 {
+  fill: #BC7442;
+}
+
+#shark {
+  position: absolute;
+  height: 900px;
+  width: auto;
+  bottom: 200px;
+  right: 0;
+  animation-name: sharkSwim;
+  animation-duration: 25s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+/*# sourceMappingURL=style.css.map */
